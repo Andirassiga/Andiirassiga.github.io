@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body{margin: 0; padding: 0;
+	background-image:url("img/Spielberg2.jpg");
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+font-size: 30px}
+
+header{ text-align: center;
+	transition-property: all;
+transition-duration:2s;
+	transition-timing-function: ease-in-out;
+
+}
+Header:hover{color: khaki;
+	text-decoration-line: underline;
+	font-size: 15px;
+	transform: scale(2)
+}
+#main{ 
+width: 80%;
+	border: solid;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	background-color:rgba(255,255,255,0.5); 
+}
+.contendorimg{width: 100%}
+.contendorimg img {width: 100%;border-radius: 10%;
+transition: all;
+transition:ease-in-out;
+transition-duration: 2s}
+.contendorimg img:hover{transform:rotate(360deg)}
+footer{color: white;
+text-align: center;
+background-color: black}
+@keyframes subtitulos1{
+	0%{transform:translateX(1000px);}
+	50%{transform: translate(0px)}
+	100%{transform:rotateX(360)}
+}
+h3{animation-name: subtitulos1;
+animation-duration: 3s;
+animation-timing-function: ease-in-out
+}
+@keyframes texto1{
+	0%{transform:translateX(-1000px);}
+	50%{transform: translateX(0PX)}
+	100%{transform:translateX(1000)}
+}
+p {animation-name: texto1;
+	animation-delay: 3s;
+animation-duration:3s;
+animation-timing-fuction: ease-in-out}
+.fondocontenedor img{
+	width: 100%;
+	height:auto;
+}
+.tiburon1{
+	background:url("shark6.png");
+	height: 600px;
+	width: 300px;
+}
