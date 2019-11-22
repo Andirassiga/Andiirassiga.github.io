@@ -1,28 +1,51 @@
 @charset "UTF-8";
 
 body{margin: 0; padding: 0;
-	background-image:url("img/Spielberg2.jpg");
-font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-image:url( "img/stevenspielberg1.jpg");
+	 background-repeat:repeat;
+background-position: center;
+	background-size: 45%;background-attachment: fixed;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 font-size: 30px}
 
 header{ text-align: center;
-	transition-property: all;
-transition-duration:2s;
-	transition-timing-function: ease-in-out;
-
+	background-color: #000000;
+	color: khaki;
+	height: 150px;
+	margin-top: -55px;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-top: 10px;
+	margin-bottom: 50px;
 }
-Header:hover{color: khaki;
-	text-decoration-line: underline;
-	font-size: 15px;
-	transform: scale(2)
+Header:hover{color:aqua;
 }
+h1{
+	color: #E59F2D}
+h1:hover{
+	color: aqua;
+	opacity: 0.8;
+}
+.menu{
+	width: 100%;
+	height: 40px;
+	background-color:#000000; 
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+align-content: center}
+.menu1{
+	font-size: 30px;
+	color: #F5F1F1;
+margin-left: 10px;
+margin-right: 10px;}
 #main{ 
 width: 80%;
 	border: solid;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px;
-	background-color:rgba(255,255,255,0.5); 
+	background-color:rgba(255,255,255,0.7); 
 }
 .contendorimg{width: 100%}
 .contendorimg img {width: 100%;border-radius: 10%;
@@ -32,7 +55,13 @@ transition-duration: 2s}
 .contendorimg img:hover{transform:rotate(360deg)}
 footer{color: white;
 text-align: center;
-background-color: black}
+background-color: #E59F2D;
+	height: auto;
+	width: 100%;
+margin-left: auto; margin-right: auto;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+margin-top: 20px;
+opacity: 0.8;}
 @keyframes subtitulos1{
 	0%{transform:translateX(1000px);}
 	50%{transform: translate(0px)}
@@ -40,17 +69,47 @@ background-color: black}
 }
 h3{animation-name: subtitulos1;
 animation-duration: 3s;
-animation-timing-function: ease-in-out
+animation-timing-function: ease-in-out;
+	font-family:graduate;
+	text-decoration: underline;
+}
+#quien-es{
+	font-size: 50px;
 }
 @keyframes texto1{
 	0%{transform:translateX(-1000px);}
 	50%{transform: translateX(0PX)}
-	100%{transform:translateX(1000)}
 }
+.primercontenido-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.contenedor-informacion{
+	width: 40%;
+	margin-left: 10px;
+	text-align: justify;
+}
+
+.contenedor-imagen1{
+	width: 50%;
+height: 450px;
+	margin-right: 40px;
+	background-image:url("imgss/spielberg21.jpg");
+	background-size: cover;
+	border-radius: 20px;
+	animation-name: imagenn1;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+}
+@keyframes imagenn1{
+	0%{transform:translateX(-1000px);}
+	50%{transform: translateX(0PX)}}
 p {animation-name: texto1;
-	animation-delay: 3s;
-animation-duration:3s;
-animation-timing-fuction: ease-in-out}
+	animation-delay: 0s;
+animation-duration:5s;
+animation-timing-function:ease;
+font-family: graduate;}
 .fondocontenedor img{
 	width: 100%;
 	height:auto;
@@ -59,4 +118,220 @@ animation-timing-fuction: ease-in-out}
 	background:url("shark6.png");
 	height: 600px;
 	width: 300px;
+}
+.main-filmografia{
+	width: 80%;
+	border: solid;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	background-color:rgba(255,255,255,0.5); 
+	height: 2950px;
+}
+.peliculas-flex{
+	width: 100%;
+	height: 1200PX;
+	display: flex;
+	justify-content: space-between;
+align-content:stretch;
+	flex-wrap: wrap;	
+}
+.peliculas-box{
+	width: 30%;
+	height: 520px;
+	background-color:#FFFFFF;
+	margin-top: 30px;
+	border-radius: 30px;
+	position: relative;}
+H6{
+	position: absolute;
+	top:78%;
+	left: 0%;
+	margin-left: 10px;
+	margin-right: 9px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #524F4F;
+	text-align: center;
+}
+#ET{
+	background-image: url("img/et.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#tiburon{
+	background-image: url("img/tiburon.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#Jurassic{
+	background-image: url("img/jurassic.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#schindler{
+	background-image: url("img/listaschindler.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#soldadoryan{
+	background-image: url("img/soldadoryan.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#volveralfuturo{
+	background-image: url("img/volveralfuturo.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#indianajones2{
+	background-image: url("img/indianajones2.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;}
+#guerrademundos{
+	background-image: url("img/guerrademundos.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;}
+#indianajones1{
+	background-image: url("img/indianajones1.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;}
+#indianajones3{
+	background-image: url("img/indianajones3.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;}
+#warhorse{
+	background-image: url("img/warhorse.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;}
+#jurassicworld{
+	background-image: url("img/jurassicworld.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;}
+#jurassicworld1{
+	background-image:url("img/jurassicworld2.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;}
+#atrapamesipuedes{
+	background-image:url("img/atrapamesipuedes.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;}
+#tintin{
+	background-image:url( "img/tintin.jpg");
+		background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.formulario{
+	background-color:rgba(0,0,0,0.8);
+	width: 350px;
+	height: 500px;
+	border-radius: 30px;
+	position: relative;
+	margin-right: 70px;
+	margin-top: 30px;
+}
+.texto-contacto{
+	width: 45%;
+	height: 220px;
+	background-color: rgba(229, 159, 45,0.8);
+	font-size: 30px;
+	text-align: justify;
+	font-family:serif;
+border-radius: 15px;
+margin-left: 50px;
+	margin-top: 160px;
+padding: 20px;}
+.titulo-formulario{
+	color: #FFFFFF;
+	text-align: center;
+}
+.nombre {
+    position: absolute;
+    top: 80px;
+    left: 13%;
+    height: 65px;
+    width: 250px;
+    border-radius: 10px;
+    border:medium solid;
+font-size:large}
+.botonenviar {
+    position: absolute;
+    top: 420px;
+    background-color:rgba(229, 159, 45,0.8);
+    left: 28%;
+    width: 140px;
+    height: 60px;
+    font-size: x-large;
+    font-weight: bolder;
+	border-radius: 15px;
+}
+.botonenviar:hover{
+	opacity: 0.6;
+}
+.email {
+    position: absolute;
+    top: 180px;
+    left: 13%;
+    height: 65px;
+    min-width: 250px;
+	border-radius: 10px;
+    border: medium solid;
+	font-size: large;}
+.mensaje {
+	vertical-align:top;
+    position: absolute;
+    top: 280px;
+    left: 13%;
+    height: 100px;
+    width: 250px;
+	border-radius: 10px;
+	    border: medium solid;
+	    font-size: large;
+}
+.contenedor-contacto{
+	width: 83%;
+	height: 580px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("img/teatro.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: -38px;
+}
+.contenedor-contacto1{
+	width: 100%;
+	height: 580px;
+	background-color:rgba(255,255,255,0.2); 
+position:absolute;
+	display: flex;
+	justify-content: space-between;
+align-content:stretch;
+	flex-wrap: wrap;
+}
+#contacto{
+	text-decoration: underline;
+}
+#bio{
+	text-decoration: underline;
+}
+#filmografia{text-decoration:underline;}
+#galeriaimg{text-decoration:underline;}
+#footer-cv{
+	width: 83%;
+	background-color: black;
 }
