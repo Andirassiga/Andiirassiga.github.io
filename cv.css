@@ -61,7 +61,7 @@ H1{
 .contenedor{
 	background-color: rgba(0,0,0,0.6);
 	margin: auto;
-	width: 900px;}
+	width: 80%;}
 .contenedor-flex{display: flex;
 	 align-content:center;	
 	flex-wrap:wrap;
@@ -356,10 +356,12 @@ text-align: left;
 	h2{
 		font-size: 30px;
 	}
+
 	.menu{
-		width: 94%;
+		width: 100%;
 			padding-top: 10px;
 	}
+	.menu-cv{width: 94%;}
 	.menu1{
 		font-size: 25px;
 		margin-bottom: 10px;
@@ -429,10 +431,11 @@ margin-left: 40px;
 	.menu{
 		display: list-item;
 		text-align: center;
-		width: 93%;
-		height: 120px;	
-		padding-top: 10px;
-	}
+		width: 100%;
+		height: 220px;	
+		padding-top: 10px;}
+	.menu-cv{width: 94%;
+	height: 100px;}
 	.menu1{
 		font-size: 30px;
 		padding-top: 6px;
@@ -546,8 +549,8 @@ margin-left: 50px;}
 	.menu{
 		display: list-item;
 		text-align: center;
-		width: 90%;
-		height: 100px;
+		width: 100%;
+		height: 120px;
 		padding-top: 10px;
 	}
 	
@@ -571,7 +574,8 @@ margin-left: 50px;}
 		font-size: 30px;
 	margin-left: -45px;}
 	.menu1{
-		font-size: 25px;
+		font-size: 20px;
+		margin-left: 0px;
 	}
 	footer{
 		width: 100%
@@ -592,6 +596,9 @@ margin-left: 50px;}
 	.ig{margin-left: 80px;}
 	.tw{margin-left: 80px;}
 	.fb{margin-left: 80px;}
+	.menu-cv{width: 90%;
+	height: 50px;}
 }
+
 
 
